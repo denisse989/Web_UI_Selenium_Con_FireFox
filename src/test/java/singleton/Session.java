@@ -26,4 +26,8 @@ public class Session {
     public WebDriver getDriver() {
         return driver;
     }
+
+    public void externo(){
+        driver.switchTo().alert().accept();
+    }
 }

@@ -14,4 +14,5 @@ public class Chrome implements IBrowser {
         chromeDriver.manage().window().maximize();
         return chromeDriver;
     }
+
 }
